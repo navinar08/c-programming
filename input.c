@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    int age;
+int main(){
 
-    printf("Enter your age: ");
-    scanf("%d", &age);
-
-    printf("Your age is %d\n", age);
-
+    char let;
+    printf("Enter a letter:");
+    scanf("%c", &let);
+    printf("The letter is : %c",let);
     return 0;
 }
